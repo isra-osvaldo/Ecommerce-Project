@@ -26,6 +26,10 @@ a {
     margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+}
+
 
 /* Header y Navegación */
 .nombre-sitio {
@@ -40,6 +44,8 @@ a {
 
 .nav-principal {
      padding: 20px 0;
+     display: flex;
+     justify-content: space-between;
 }
 
 .hero {
@@ -47,4 +53,11 @@ a {
     background-repeat: no-repeat;
     background-size: cover; ;
     height: 550px;
+}
+
+/* Categorías */
+.listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
