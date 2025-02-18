@@ -156,6 +156,14 @@ img {
 
 .producto:nth-child(1) {
     grid-column: 1 / 7;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.producto:nth-child(1) img {
+    height: 43rem;
+    width: 100%;
+    object-fit: cover;
 }
 
 .producto:nth-child(2) {
@@ -180,6 +188,7 @@ img {
 
 .producto {
     background-color: #037bc0;
+
 }
 
 .texto-producto {
